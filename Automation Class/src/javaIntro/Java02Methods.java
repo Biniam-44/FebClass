@@ -37,6 +37,9 @@ public class Java02Methods {
 	public boolean MethodWithBoolReturn() {
 		return false;
 	}
+	public boolean MethodBoolReturnWithParmaeter( boolean a) {
+		return a;
+	}
 
 	public void MethodWithParameter(int a, int b) {
 

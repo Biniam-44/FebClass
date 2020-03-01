@@ -1,5 +1,7 @@
 package javaIntro;
 
+import java.util.concurrent.locks.Lock;
+
 public class Java01Basics {
 
 	public static void main(String[] args) {
@@ -11,8 +13,7 @@ public class Java01Basics {
 		 * 
 		 * I can write what ever I want inside here
 		 * 
-		 */
-
+		
 		// This line will print out this is my first java code
 		System.out.println("This is my first Java code");
 
@@ -65,6 +66,9 @@ public class Java01Basics {
 		System.out.println(cm.MethodWithBoolReturn());
 		cm.MethodWithParameter(16, 10);
 		cm.MethodWithStringParmeter("Eddy");
+		System.out.println(cm.MethodBoolReturnWithParmaeter(false));
+		System.out.println(cm.MethodWithBoolReturn());
+	
 	}
 
 }
