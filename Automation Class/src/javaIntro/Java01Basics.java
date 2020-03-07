@@ -12,7 +12,7 @@ public class Java01Basics {
 		 * This is a multi line comment
 		 * 
 		 * I can write what ever I want inside here
-		 * 
+		 */
 		
 		// This line will print out this is my first java code
 		System.out.println("This is my first Java code");
@@ -60,6 +60,7 @@ public class Java01Basics {
 		 */
 
 		Java02Methods cm = new Java02Methods();
+		
 		cm.AddTwoNumbers();
 		cm.SubTwoNumbers();
 		System.out.println(cm.MethodWithReturnType());

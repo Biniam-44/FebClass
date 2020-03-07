@@ -11,6 +11,7 @@ public class Selenium01Basics {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nebiy\\OneDrive\\Desktop\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
+		driver.findElement(By.id("email")).click();
 		driver.get("https://www.facebook.com/");
 		System.out.println(driver.getCurrentUrl());
 		driver.findElement(By.id("email")).sendKeys("My username");
@@ -19,6 +20,7 @@ public class Selenium01Basics {
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		System.out.println(driver.getCurrentUrl());
 		driver.navigate().back();
+		driver.navigate().forward();
 		
 
 	}
