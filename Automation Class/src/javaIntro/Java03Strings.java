@@ -1,7 +1,9 @@
 package javaIntro;
 
 public class Java03Strings {
-
+	public void Method1() {
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -61,6 +63,7 @@ public class Java03Strings {
 		// I want to get the length of name1
 		int length = name1.length();
 		System.out.println(length);
+		
 		
 		
 		

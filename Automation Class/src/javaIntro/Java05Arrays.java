@@ -8,16 +8,17 @@ public class Java05Arrays {
 		
 		String b[] = {"Nebyou","Abel","Tesfa"};
 		// We declare the arrays with allocated memory
-		int z[] = new int[3];
+		int z[] = new int[4];
 		z[0] = 12;
 		z[1] = 11;
 		z[2] =13;
-		z[3] = 14;
+		//z[3] = 14;
 		//z[4] =15;
 		
 		System.out.println(z[2]);
 		String c = "Nebyou";
 		int a[] = {2,4,6,7,8,90,100,120};
+		//int z[] = {12,11,13,14};
 		 
 		int result = 0;
 		int d =11234;

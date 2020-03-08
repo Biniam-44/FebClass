@@ -63,13 +63,14 @@ public class Java01Basics {
 		
 		cm.AddTwoNumbers();
 		cm.SubTwoNumbers();
-		System.out.println(cm.MethodWithReturnType());
+		System.out.println(cm.MethodWithReturnType() * 2);
 		System.out.println(cm.MethodWithBoolReturn());
 		cm.MethodWithParameter(16, 10);
 		cm.MethodWithStringParmeter("Eddy");
 		System.out.println(cm.MethodBoolReturnWithParmaeter(false));
 		System.out.println(cm.MethodWithBoolReturn());
-	
+		Java03Strings str = new Java03Strings();
+		str.Method1();
 	}
 
 }
