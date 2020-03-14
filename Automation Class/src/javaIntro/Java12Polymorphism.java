@@ -40,8 +40,7 @@ public class Java12Polymorphism {
 		s2.draw();
 		shape s3 = new Hexagon();
 		s3.draw();
-		Hexagon h = new Hexagon();
-		h.method1();
+		
 		
 
 	}

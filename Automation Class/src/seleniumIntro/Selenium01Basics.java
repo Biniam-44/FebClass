@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Selenium01Basics {
@@ -11,7 +12,7 @@ public class Selenium01Basics {
 	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\nebiy\\OneDrive\\Desktop\\ChromeDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.findElement(By.id("email")).click();
+		//driver.findElement(By.id("email")).click();
 		driver.get("https://www.facebook.com/");
 		System.out.println(driver.getCurrentUrl());
 		driver.findElement(By.id("email")).sendKeys("My username");
@@ -21,6 +22,9 @@ public class Selenium01Basics {
 		System.out.println(driver.getCurrentUrl());
 		driver.navigate().back();
 		driver.navigate().forward();
+		WebElement el = driver.findElement(By.id("email"));
+		el.getText();
+		System.out.println(el);
 		
 
 	}
