@@ -22,9 +22,7 @@ public class Selenium01Basics {
 		System.out.println(driver.getCurrentUrl());
 		driver.navigate().back();
 		driver.navigate().forward();
-		WebElement el = driver.findElement(By.id("email"));
-		el.getText();
-		System.out.println(el);
+		
 		
 
 	}

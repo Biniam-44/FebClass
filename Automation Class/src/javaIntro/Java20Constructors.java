@@ -6,7 +6,7 @@ public class Java20Constructors {
 	//Constructors have no return type
 	//Constructors have always the same name as the class name
 	public Java20Constructors() {
-		System.out.println("I am clearing the browser cache");
+		
 	}
 	public Java20Constructors(int a) {
 		System.out.println("I am the constructor with a parameter " + a);
