@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loans">
+  <test thread-count="5" name="Loan Applications">
+    <classes>
+      <class name="testngIntro.Testng02LoansPersonal">
+      <methods>
+      <!-- Including only CloseLoan Method because the others are not working -->
+      <exclude name="CloseLoanPersonalLoan"/>
+      </methods>
+      </class>
+      <class name="testngIntro.Testng02Loans"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

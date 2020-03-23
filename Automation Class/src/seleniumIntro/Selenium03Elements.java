@@ -59,6 +59,8 @@ public class Selenium03Elements {
 		WebElement rtRadioBtn = driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1"));
 		rtRadioBtn.click();
 		
+		String value1 = rtRadioBtn.getText();
+		
 		boolean isRTClicked = rtRadioBtn.isSelected(); 
 		
 		System.out.println(isRTClicked);
@@ -71,8 +73,8 @@ public class Selenium03Elements {
 		// Select Disabled date
 		
 		/*
-		 * driver.findElement(By.xpath("//tr[3]//td[5]//span[1]")).click();
-		 * 
+		 driver.findElement(By.xpath("//tr[3]//td[5]//span[1]")).click();
+		  
 		 * WebElement date = driver.findElement(By.xpath("//tr[3]//td[5]//span[1]"));
 		 * String selectedDate = date.getText(); System.out.println(selectedDate);
 		 */
